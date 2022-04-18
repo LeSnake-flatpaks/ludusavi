@@ -47,11 +47,11 @@ jobs:
       - uses: actions-rs/cargo@v1
         with:
           command: build
-          args: --target ${{ matrix.rust-target }}
+          args: --release --target ${{ matrix.rust-target }}
       - uses: actions/upload-artifact@v1
         with:
           name: ludusavi-v${{ env.LUDUSAVI_VERSION }}-${{ matrix.artifact-name }}
-          path: target/${{ matrix.rust-target }}/debug/${{ matrix.artifact-file }}
+          path: target/${{ matrix.rust-target }}/release/${{ matrix.artifact-file }}
 
   test:
     strategy:
