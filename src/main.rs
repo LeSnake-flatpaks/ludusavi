@@ -13,6 +13,7 @@ mod shortcuts;
 mod registry;
 
 fn main() {
+    simple_logger::SimpleLogger::new().init().unwrap();
     prelude::migrate_legacy_config();
 
     let args = cli::parse_cli();
