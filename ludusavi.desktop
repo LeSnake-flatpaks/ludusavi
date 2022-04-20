@@ -1,9 +1,8 @@
-#!/usr/bin/env xdg-open
 [Desktop Entry]
 Type=Application
 Encoding=UTF-8
 Name=Ludusavi
 Comment=Tool for backing up your PC video game save data.
 Exec=ludusavi %U
-Icon=ludusasvi
+Icon=ludusavi
 Terminal=false
