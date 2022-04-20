@@ -6,4 +6,4 @@ Name=Ludusavi
 Comment=Tool for backing up your PC video game save data.
 Exec=ludusavi %U
 Icon=ludusasvi
-Terminal=False
+Terminal=false
