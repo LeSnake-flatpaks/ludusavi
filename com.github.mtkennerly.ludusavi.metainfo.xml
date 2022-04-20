@@ -15,15 +15,15 @@
 			<li>Ability to back up data from more than 8,000 games plus your own custom entries.</li>
 			<li>Backup and restore for Steam as well as other game libraries.</li>
 			<li>Preview of the backup/restore before actually performing it.</li>
-			<li>Both a graphical interface and command line interface for scripting. (NOTE: Cli is named "com.github.mtkennerly.ludusavi" for flatpak) <li>
+			<li>Both a graphical interface and command line interface for scripting. (NOTE: Cli is named "com.github.mtkennerly.ludusavi" for flatpak) </li>
 			<li>Tab completion is available for Bash, Fish, Zsh, PowerShell, and Elvish.</li>
-			<li>Support for:
-			<li><ul>
-				<li>Saves that are stored as files and in the Windows registry.<\li>
-				<li>Proton saves with Steam.<\li>
+			<li>Support for:</li>
+			<ul>
+				<li>Saves that are stored as files and in the Windows registry.</li>
+				<li>Proton saves with Steam.</li>
 				<li>Steam screenshots.</li>
-			</ul></li>
-		<\ul>
+			</ul>
+		</ul>
 	</description>
 	<screenshots>
 		<screenshot type="default">
